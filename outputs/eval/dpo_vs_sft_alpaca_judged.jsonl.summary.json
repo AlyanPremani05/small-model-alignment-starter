@@ -1,0 +1,67 @@
+{
+  "n": 300,
+  "wins": 129,
+  "losses": 143,
+  "ties": 28,
+  "unknown": 0,
+  "win_rate_excluding_ties": 0.4742647058823529,
+  "win_rate_ties_as_half": 0.4766666666666667,
+  "win_rate_over_all_valid": 0.43,
+  "subject": "dpo",
+  "baseline": "sft",
+  "judge_model": "google/gemini-3.6-flash",
+  "failures": 0,
+  "retries": 5,
+  "by_category": {
+    "helpful_base": {
+      "n": 51,
+      "wins": 21,
+      "losses": 23,
+      "ties": 7,
+      "unknown": 0,
+      "win_rate_excluding_ties": 0.4772727272727273,
+      "win_rate_ties_as_half": 0.4803921568627451,
+      "win_rate_over_all_valid": 0.4117647058823529
+    },
+    "koala": {
+      "n": 60,
+      "wins": 32,
+      "losses": 24,
+      "ties": 4,
+      "unknown": 0,
+      "win_rate_excluding_ties": 0.5714285714285714,
+      "win_rate_ties_as_half": 0.5666666666666667,
+      "win_rate_over_all_valid": 0.5333333333333333
+    },
+    "oasst": {
+      "n": 54,
+      "wins": 21,
+      "losses": 29,
+      "ties": 4,
+      "unknown": 0,
+      "win_rate_excluding_ties": 0.42,
+      "win_rate_ties_as_half": 0.42592592592592593,
+      "win_rate_over_all_valid": 0.3888888888888889
+    },
+    "selfinstruct": {
+      "n": 95,
+      "wins": 41,
+      "losses": 42,
+      "ties": 12,
+      "unknown": 0,
+      "win_rate_excluding_ties": 0.4939759036144578,
+      "win_rate_ties_as_half": 0.49473684210526314,
+      "win_rate_over_all_valid": 0.43157894736842106
+    },
+    "vicuna": {
+      "n": 40,
+      "wins": 14,
+      "losses": 25,
+      "ties": 1,
+      "unknown": 0,
+      "win_rate_excluding_ties": 0.358974358974359,
+      "win_rate_ties_as_half": 0.3625,
+      "win_rate_over_all_valid": 0.35
+    }
+  }
+}
